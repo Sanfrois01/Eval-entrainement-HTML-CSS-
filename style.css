@@ -1,0 +1,18 @@
+footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+.img-brand img { 
+  width: 20%;
+  height: 20%;
+}
+
+
+#main-logo {
+  position: fixed;
+  height: 0px;
+  width: 0px;
+}
