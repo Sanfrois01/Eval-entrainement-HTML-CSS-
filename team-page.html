@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link href="style.css" rel="steelsheet">
-  <title>Accueil - Association sportive omnisport</title>
+  <title>L'équipe - Association sportive omnisport</title>
 </head>
 
 <body class="container-fluid">
@@ -35,14 +35,14 @@
   <div class="row">
     <div class="col-12">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand active" href="index.html"> Accueil</a>
+        <a class="navbar-brand" href="index.html"> Accueil</a>
         <div class="collapse navbar-collapse d-flex justify-content-between">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="#"> Tarifs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="team-page.html"> Notre Equipe</a>
+              <a class="nav-link active" href="team-page.html"> Notre Equipe</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"> Nous contacter</a>
@@ -52,77 +52,52 @@
       </nav>
     </div>
   </div>
-  <!--Contenu de l'accueil-->
+  <!--Presentation de l'equipe-->
   <main>
-    <div class="flex-column">
-      <h1 class="text-center"> Présentation de L'Association</h1>
-      <section class="justify-content-center col-12">
-        <p class="text-center">Omnisport vous propose de partager un moment de convivialité autour du sport avec des
-          pratiquants de tout âge.
-        </p>
-      </section>
-      <h2 class="text-center">Actualités</h2>
-      <article>
-        <!--Card d'activités-->
-        <!--Card Natation-->
-        <div class="container-fluid row justify-content-center my-2">
-          <div class="card" style="width: 40rem;">
-            <img src="natation.jpg" class="card-img-top rounded my-2">
-            <div class="card-body">
-              <h6 class="card-title text-danger">06 mai 2021</h6>
-              <h5 class="card-title"> Championnat de Natation</h5>
-              <p class="card-text">Le club de Natation participe à la finale du championnat qui aura lieu le 2 juin 2021
-              </p>
-            </div>
-          </div>
-          <!--Card foot-->
-          <div class="container-fluid row justify-content-center my-2">
-            <div class="card" style="width: 40rem;">
-              <img src="football.jpg" class="card-img-top rounded my-2">
-              <div class="card-body">
-                <h6 class="card-title text-danger">19 mai 2021</h6>
-                <h5 class="card-title"> Stage de Football</h5>
-                <p class="card-text">Le club de Football organise un stage pour les 12 - 14 ans pendant les vacances
-                  d'été</p>
-              </div>
-            </div>
-          </div>
-          <!--Card Kayak-->
-          <div class="container-fluid row justify-content-center my-2">
-            <div class="card" style="width: 40rem;">
-              <img src="Kayak.jpg" class="card-img-top rounded my-2">
-              <div class="card-body">
-                <h6 class="card-title text-danger">20 mai 2021</h6>
-                <h5 class="card-title"> Descente en Kayak</h5>
-                <p class="card-text">Le club de Kayak vous propose une sortie détente dans les gorges de l'Hérault, le
-                  jour de la fête nationale</p>
-              </div>
-            </div>
+    <h1 class="text-center">Notre Equipe</h1>
+    <div class="container ">
+      <div class="row justify-content-around">
+
+        <div class="card m-3 p-3" style="width: 14rem;">
+          <img src="profil-pic2.jpg" class="card-img-top rounded">
+          <div class="card-body">
+            <h5 class="card-title">Sophie L.</h5>
+            <p class="card-text">Expert VTT</p>
           </div>
         </div>
-      </article>
-      <article>
-        <div class="justify-content-center col-12 border border-dark bg-success my-2">
-          <h2 class="text-center">Dernières Informations</h2>
-          <p class="text-center">
-          <ol class="text-center">
-            <li style="list-style: inside">
-              Attention aux personnes inscrites à la finale du championnat de natation, veuillez vous munir
-              d'un test PCR valide de moins de 2 jours ou d'une attestation vaccinale.
-            </li>
-            <li style="list-style: inside">
-              A partir du 4 Juillet, le public sera admis dans toutes les sessions, quelque soit le sport.
-            </li>
-          </ol>
-          </p>
+
+        <div class="card m-3 p-3" style="width: 14rem;">
+          <img src="profil-pic.jpg" class="card-img-top rounded">
+          <div class="card-body">
+            <h5 class="card-title">Bruno P.</h5>
+            <p class="card-text">Expert Tennis</p>
+          </div>
         </div>
-      </article>
-    </div>
+
+        <div class="card m-3 p-3" style="width: 14rem;">
+          <img src="profil-pic2.jpg" class="card-img-top rounded">
+          <div class="card-body">
+            <h5 class="card-title">Beatrice I.</h5>
+            <p class="card-text text-center">Presidente de l'association et Expert Omnisport</p>
+          </div>
+        </div>
+        <div class="card m-3 p-3" style="width: 14rem;">
+          <img src="profil-pic2.jpg" class="card-img-top rounded">
+          <div class="card-body">
+            <h5 class="card-title">Viviane S.</h5>
+            <p class="card-text">Expert Natation</p>
+          </div>
+        </div>
+
+      </div>
+
+
+
   </main>
 
   <!--Footer-->
 
-  <footer>
+  <footer class="fixed-bottom d-none d-lg-inline">
 
     <div class="container-fluid col-12 bg-dark">
       <nav>
@@ -135,7 +110,7 @@
           <a class="text-light" href="mailto:omnisport@exemple.com"> omnisport@exemple.com </a>
         </div>
 
-        <div class="col">
+        <div class="col ">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" role="button"
             class="bi bi-telephone text-light" viewBox="0 0 16 16">
             <path
