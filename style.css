@@ -1,0 +1,14 @@
+html,body {
+  min-height: 100vh; 
+  margin: 0px;
+  padding: 0px;
+ }
+
+ @media screen and (min-width:800px) {
+   .footer {
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    width: 100%;
+  }
+ }
