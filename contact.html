@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
-  <title>Accueil - Association sportive omnisport</title>
+  <title>Contact - Association sportive omnisport</title>
 </head>
 
 <body class="container-fluid">
@@ -72,7 +72,7 @@
           <form>
             <div class="form-group">
               <label for="emailAdress">Adresse Email</label>
-              <input type="email" class="form-control" id="emailAdress" placeholder="email@example.com">
+              <input type="email" class="form-control" id="emailAdress" placeholder="email@exemple.com">
             </div>
             <div class="form-group">
               <label for="kindOfSport">Quel sport concerne le message</label>
@@ -97,7 +97,27 @@
               <label for="messageAera">Message</label>
               <textarea class="form-control" id="messageAera" rows="5"></textarea>
             </div>
-            <button type="button" class="btn btn-success my-2">Envoyer</button>
+            <button type="button" class="btn btn-success my-2"  data-bs-toggle="modal" data-bs-target="#sendMessage" >Envoyer</button>
+
+            <div class="modal fade" id="sendMessage" tabindex="-1" aria-labelledby="sendMesssageLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="sendMessageLabel">Confirmation d'envoi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Etes-vous sur d'nevoyer ce message ? 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Non</button>
+                    <button type="button" class="btn btn-success">Oui</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
           </form>
         </div>
       </div>

@@ -2,13 +2,34 @@ html,body {
   min-height: 100vh; 
   margin: 0px;
   padding: 0px;
- }
+}
 
- @media screen and (min-width:800px) {
+.form-control:focus{
+  border-color: #135a13;  
+ box-shadow: none; 
+ -webkit-box-shadow: none;} 
+
+ @media screen and (min-width:762px) {
    .footer {
     position: fixed;
     height: 70px;
     bottom: 0;
     width: 100%;
   }
+  section img {
+    width: 600px;
+    height: 500px;
+  }
  }
+
+  
+@media screen and (max-width:800px) {
+
+  article{
+    display: grid;
+
+  }
+  article img{
+    display: none;
+  }
+}
